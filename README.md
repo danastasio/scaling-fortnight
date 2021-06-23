@@ -1,11 +1,11 @@
-This "project" aims to create a logging system similar to Ice Cream, but aims to be smaller in scope and size. Calling db.eval(X) will tell you what line X was called on, X's type, as well as the value of X. Additionally, if X is a function, the function will be called and returned. 
+This "project" aims to create a logging system similar to Ice Cream, but aims to be smaller in scope and size. Ultimately, this aims to be a complete replacement to using print() to debug programs. Calling db.eval(X) will tell you what line X was called on, X's type, as well as the value of X. Additionally, if X is a function, the function will be called and returned. 
 
 Output can be surpressed with db.disable()
 
 The following script will output the below text:
 
 script:
-```
+```python
 from debugger import db
 
 def main():
